@@ -1,4 +1,8 @@
 #pandas-profiling 
+
+[![Build Status](https://travis-ci.org/nparley/pandas-profiling.svg?branch=master)](https://travis-ci.org/nparley/pandas-profiling)
+[![Build status](https://ci.appveyor.com/api/projects/status/lckah7l6qbv59vx5?svg=true)](https://ci.appveyor.com/project/nparley/pandas-profiling)
+
 Generates profile reports from a pandas DataFrame. The *df.describe()* function is great but a little basic for serious exploratory data analysis. 
 
 For each column the following statistics - if relevant for the column type - are presented in an interactive HTML report:
